@@ -1,0 +1,26 @@
+{
+  "name": "shirino",
+  "version": "0.0.1",
+  "description": "discord bot.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@megavasiliy007/sdc-api": "github:MegaVasiliy007/sdc-api",
+    "discord.js": "^12.2.0",
+    "gists": "^2.0.0",
+    "moment": "^2.26.0",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "pm2": "^4.4.0",
+    "strftime": "^0.10.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/~shirino-12"
+  },
+  "license": "MIT"
+}
