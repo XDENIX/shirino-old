@@ -17,7 +17,7 @@ const moment = require("moment");
         .setThumbnail(target.user ? target.user.avatarURL({dynamic: true, png: true }) : target.avatarURL())
         .setColor("#36393f")
         .setAuthor(`Информация о пользователе ${target.guild ? target.user.tag : target.tag}`)
-        .addField("Основная информация", `\n**Имя пользователя:** ${target.guild ? target.user.tag : target.tag} \n**Статус: ** ${status[target.presence.status]}   \n**Устройство**: ${target.presence.clientStatus.desktop ? "ПК" : (target.presence.clientStatus.mobile ? "Телефон" : "Веб/Неизвестно")}${target.guild ? `\n**Присоединился: **${joinServer}` : ""}\n**Дата регистрации: **${joinDiscord}`)
+        .addField("Основная информация", "none")
         .setFooter("ID: " + target.id)
     message.channel.send(embed)
 message.delete();
