@@ -5,7 +5,7 @@
 
 sauce dogg#6699
 
-CatInhair#6504
+CatInСhair#6504
 
 ### Links
 [Support server](https://discord.gg/zfH4TRS)
